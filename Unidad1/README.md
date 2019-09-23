@@ -1,7 +1,7 @@
 # ProgramacionDAW
 ## Unidad 1
 
- 	Bytecode-Viewer-2.9.22.zip => Software para visualizar el bytecode de un .class
+ 	Bytecode-Viewer-2.9.22.zip => Software para visualizar el bytecode de un .class == *Archivo eliminado*
 	Ejemplos de Paradigmas de Programación.md 
 	Ejercicio1U1.pdf 	=> Conjunto de ejercicios prácticos 
 	Intro_Java.pdf  => Introducción al lenguaje Java
