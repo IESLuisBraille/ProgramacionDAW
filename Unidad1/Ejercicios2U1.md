@@ -1,4 +1,4 @@
-# Ejercicio 2 Unidad 1
+# Ejercicios 2 Unidad 1
 
 ### Ejercicio 1
 (Aritmética) Escriba una aplicación que pida al usuario que escriba dos números, que obtenga los números 
