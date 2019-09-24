@@ -134,7 +134,7 @@ producen números con puntos decimales; a éstos se les conoce como números de 
 ### Ejercicio 11
 (Cálculo trayecto del automóvil) Escriba una aplicación que calcule el coste del trayecto de un automóvil:
 
-a. Total de kilómetros conducidos por trayecto
-b. Costo por litro de gasolina/diesel.
-c. Número litros/100km.
+- Total de kilómetros conducidos por trayecto
+- Costo por litro de gasolina/diesel.
+- Número litros/100km.
 
