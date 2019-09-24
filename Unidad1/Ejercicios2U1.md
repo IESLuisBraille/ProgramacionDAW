@@ -86,7 +86,7 @@ Muestre los equivalentes enteros de los siguientes caracteres: A B C a b c 0 1 2
 
 ### Ejercicio 8
 
-(Tabla de cuadrados y cuboss)
+(Tabla de cuadrados y cubos)
 Escriba una aplicación que calcule los cuadrados y cubos de los números del 0 al 10, y que imprima los valores resultantes en formato de tabla, como se muestra a continuación.
 ```
 número cuadrado cubo
@@ -106,7 +106,7 @@ número cuadrado cubo
 
 ### Ejercicio 9
 
-(Valores negativos, positivos y ceroo) Escriba un programa que reciba cinco números, y que determine e imprima la cantidad de números negativos, positivos, y la cantidad de ceros recibidos.
+(Valores negativos, positivos y cero) Escriba un programa que reciba cinco números, y que determine e imprima la cantidad de números negativos, positivos, y la cantidad de ceros recibidos.
 
 ### Ejercicio 10
 (Calculadora del índice de masa corporal)  Las fórmulas para calcular el BMI son (en libras y kg):
