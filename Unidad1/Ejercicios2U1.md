@@ -5,7 +5,7 @@
 del usuario e imprima la suma, producto, diferencia y cociente (división) de los números.
 
 ### Ejercicio 2
-(Comparación de enteross) Escriba una aplicación que pida al usuario que escriba dos enteros, que obtenga
+(Comparación de enteros) Escriba una aplicación que pida al usuario que escriba dos enteros, que obtenga
 los números del usuario y muestre el número más grande, seguido de las palabras “es más grande”. Si los números son 
 iguales, imprima el mensaje “Estos números son iguales”.
 
