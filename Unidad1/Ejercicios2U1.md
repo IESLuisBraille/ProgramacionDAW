@@ -5,22 +5,6 @@
 del usuario e imprima la suma, producto, diferencia y cociente (división) de los números.
 
 ### Ejercicio 2
-(Comparación de enteros) Escriba una aplicación que pida al usuario que escriba dos enteros, que obtenga
-los números del usuario y muestre el número más grande, seguido de las palabras “es más grande”. Si los números son 
-iguales, imprima el mensaje “Estos números son iguales”.
-
-### Ejercicio 3
-(Aritmética: menor y mayorr) Escriba una aplicación que reciba tres enteros del usuario y muestre la suma, 
-promedio, producto, menor y mayor de esos números. 
-
-### Ejercicio 4
-(Par o impar) Escriba una aplicación que lea un entero y que determine e imprima si es impar o par [sugerencia: use el operador residuo. Un número par es un múltiplo de 2. Cualquier múltiplo de 2 deja un residuo de 0 cuando se divide entre 2]
-
-### Ejercicio 5
-(Múltiplos) Escriba una aplicación que lea dos enteros, determine si el primero es un múltiplo del segundo e 
-imprima el resultado. [Sugerencia: use el operador residuo].
-
-### Ejercicio 6
 **Nota Explicativa**
 
 Existe una librería llamada Math la cual es estática y se puede llamar desde cualquir clase o programa java sin tener que declararla
@@ -59,7 +43,73 @@ No almacene los resultados de cada cálculo en una variable. En vez de ello, esp
 se imprimirá en una instrucción `System.out.printf`. Los valores producidos por los cálculos del área y de la circunferencia son números de punto flotante. Dichos valores pueden imprimirse con el especificador de formato %f en una
 instrucción `System.out.printf`. 
 
+### Ejercicio 3
+(Aritmética: menor y mayor) Escriba una aplicación que reciba tres enteros del usuario y muestre la suma, 
+promedio, producto, menor y mayor de esos números. 
+
+### Ejercicio 4
+
+(Tabla de cuadrados y cubos)
+Escriba una aplicación que calcule los cuadrados y cubos de los números del 0 al 10, y que imprima los valores resultantes en formato de tabla, como se muestra a continuación.
+```
+número cuadrado cubo
+0      0      0
+1      1      1
+2      4      8
+3      9      27
+4      16     64
+5      25     125
+6      36     216
+7      49     343
+8      64     512
+9      81     729
+10     100    1000
+```
+
+### Ejercicio 5
+(Calculadora del índice de masa corporal)  Las fórmulas para calcular el BMI son (en libras y kg):
+```
+BMI = ( pesoEnLibras × 703 ) / ( alturaEnPulgadas × alturaEnPulgadas)
+
+BMI =  pesoEnKilogramos  / ( alturaEnMetros × alturaEnMetros )
+```
+Cree una calculadora del BMI que lea el peso del usuario en libras y la altura en pulgadas (o, si lo prefiere, el peso del 
+usuario en kilogramos y la altura en metros), para que luego calcule y muestre el índice de masa corporal del usuario. 
+Muestre además la siguiente información del Departamento de Salud y Servicios Humanos/Instituto Nacional de 
+Salud para que el usuario pueda evaluar su BMI:
+```
+VALORES DE BMI
+Bajo peso: menos de 18.5
+Normal: entre 18.5 y 24.9
+Sobrepeso: entre 25 y 29.9
+Obeso: 30 o más
+```
+[Nota: en este capítulo aprendió a usar el tipo int para representar números enteros. Cuando se realizan los cálculos 
+del BMI con valores int, se producen resultados en números enteros. En el capítulo 3 aprenderá a usar el tipo double
+para representar a los números con puntos decimales. Cuando se realizan los cálculos del BMI con valores double,
+producen números con puntos decimales; a éstos se les conoce como números de “punto flotante”].
+
+### Ejercicio 6
+(Cálculo trayecto del automóvil) Escriba una aplicación que calcule el coste del trayecto de un automóvil:
+
+- Total de kilómetros conducidos por trayecto
+- Costo por litro de gasolina/diesel.
+- Número litros/100km.
+## Ejercicios de ampliación
+
 ### Ejercicio 7
+(Comparación de enteros) Escriba una aplicación que pida al usuario que escriba dos enteros, que obtenga
+los números del usuario y muestre el número más grande, seguido de las palabras “es más grande”. Si los números son 
+iguales, imprima el mensaje “Estos números son iguales”.
+
+### Ejercicio 8
+(Par o impar) Escriba una aplicación que lea un entero y que determine e imprima si es impar o par [sugerencia: use el operador residuo. Un número par es un múltiplo de 2. Cualquier múltiplo de 2 deja un residuo de 0 cuando se divide entre 2]
+
+### Ejercicio 9
+(Múltiplos) Escriba una aplicación que lea dos enteros, determine si el primero es un múltiplo del segundo e 
+imprima el resultado. [Sugerencia: use el operador residuo].
+
+### Ejercicio 10
 
 (Valor entero de un carácter)  Java puede también representar letras en mayúsculas, en minúsculas y en una considerable variedad
 de símbolos especiales. Cada carácter tiene su correspondiente representación entera. El conjunto de caracteres que 
@@ -83,58 +133,4 @@ elcarácter 'A').
 Utilizando instrucciones similares a la mostrada anteriormente en este ejercicio, escriba una aplicación que 
 muestre los equivalentes enteros de algunas letras en mayúsculas, en minúsculas, dígitos y símbolos especiales. 
 Muestre los equivalentes enteros de los siguientes caracteres: A B C a b c 0 1 2 $ * + / y el carácter en blanco.
-
-### Ejercicio 8
-
-(Tabla de cuadrados y cubos)
-Escriba una aplicación que calcule los cuadrados y cubos de los números del 0 al 10, y que imprima los valores resultantes en formato de tabla, como se muestra a continuación.
-```
-número cuadrado cubo
-0      0      0
-1      1      1
-2      4      8
-3      9      27
-4      16     64
-5      25     125
-6      36     216
-7      49     343
-8      64     512
-9      81     729
-10     100    1000
-```
-## Ejercicios de ampliación
-
-### Ejercicio 9
-
-(Valores negativos, positivos y cero) Escriba un programa que reciba cinco números, y que determine e imprima la cantidad de números negativos, positivos, y la cantidad de ceros recibidos.
-
-### Ejercicio 10
-(Calculadora del índice de masa corporal)  Las fórmulas para calcular el BMI son (en libras y kg):
-```
-BMI = ( pesoEnLibras × 703 ) / ( alturaEnPulgadas × alturaEnPulgadas)
-
-BMI =  pesoEnKilogramos  / ( alturaEnMetros × alturaEnMetros )
-```
-Cree una calculadora del BMI que lea el peso del usuario en libras y la altura en pulgadas (o, si lo prefiere, el peso del 
-usuario en kilogramos y la altura en metros), para que luego calcule y muestre el índice de masa corporal del usuario. 
-Muestre además la siguiente información del Departamento de Salud y Servicios Humanos/Instituto Nacional de 
-Salud para que el usuario pueda evaluar su BMI:
-```
-VALORES DE BMI
-Bajo peso: menos de 18.5
-Normal: entre 18.5 y 24.9
-Sobrepeso: entre 25 y 29.9
-Obeso: 30 o más
-```
-[Nota: en este capítulo aprendió a usar el tipo int para representar números enteros. Cuando se realizan los cálculos 
-del BMI con valores int, se producen resultados en números enteros. En el capítulo 3 aprenderá a usar el tipo double
-para representar a los números con puntos decimales. Cuando se realizan los cálculos del BMI con valores double,
-producen números con puntos decimales; a éstos se les conoce como números de “punto flotante”].
-
-### Ejercicio 11
-(Cálculo trayecto del automóvil) Escriba una aplicación que calcule el coste del trayecto de un automóvil:
-
-- Total de kilómetros conducidos por trayecto
-- Costo por litro de gasolina/diesel.
-- Número litros/100km.
 
