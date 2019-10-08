@@ -48,8 +48,9 @@ Prueba las siguientes sentencias para ver cómo se capturan diversos tipos de da
 ```
 
 5. (Volumen de un triángulo) Escribe un programa que lee la longitud de los lados de un triángulo equilátero y calcula el area y y volumen utilizando las siguientes fórmulas:
-
+```
 Area = ( Sqrt(3) / 4 ) * lado^2
+
 Volumen = area * longitud (todos los lados)
 
- 
+ ```
