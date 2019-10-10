@@ -46,7 +46,7 @@ Prueba las siguientes sentencias para ver cómo se capturan diversos tipos de da
 15 float floatValue = input.nextFloat();
 
 ```
-
+ System.currentTimeMillis() `
 5. (Volumen de un triángulo) Escribe un programa que lee la longitud de los lados de un triángulo equilátero y calcula el area y y volumen utilizando las siguientes fórmulas:
 ```
 Area = ( Sqrt(3) / 4 ) * lado^2
@@ -54,3 +54,9 @@ Area = ( Sqrt(3) / 4 ) * lado^2
 Volumen = area * longitud (todos los lados)
 
  ```
+6. **Lab Práctico**
+
+Puedes utilizar la función `System.currentTimeMillis()` que devuelve el número total de milisegundos desde el 01/01/1970. Este tiempo se llama **Unix epoch**. Comienza en 1970 que es cuando se introdujo Unix. 
+
+Puedes utilizar este método para saber cuál es el minuto, hora y segundo actuales:
+* Si obtienes el total de milisegundos con `System.currentTimeMillis()`
