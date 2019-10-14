@@ -87,10 +87,9 @@ Y luego debe realizar la conversión para el resto de unidades. Es decir, si se 
 (1, 4) (4, 2)  (2.5, 3.0)
 (2, 7) (6, 3)  (4.0, 5.0)
 (3, 9) (10, 5) (6.5, 7.0)
-```
 (4, 11) (12, 7) (8.0, 9.0)
-
-9. (Ejercicio Financiero): Supón gue tienes 100€ de beneficion mensual en una cuenta bancaria con un interés anual de 3.75%. El interés mensual sería: 0.0375/12 = 0.003125. 
+```
+9. (Ejercicio Financiero): Supón que tienes 100€ de beneficio mensual en una cuenta bancaria con un interés anual de 3.75%. El interés mensual sería: 0.0375/12 = 0.003125. 
 * Después del primer mes la ganancia sería: 100 + (0.003125 *100) = 100.3125
 * Después del segundo mes sería de: (100.3125 + 100) * ( 1 + .003125) = 200.9384765625
 
