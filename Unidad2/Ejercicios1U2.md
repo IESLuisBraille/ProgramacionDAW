@@ -67,6 +67,31 @@ Puedes utilizar este método para saber cuál es el minuto, hora y segundo actua
 * Obtener el número total de horas mediante: totalMinutos / 60 en una variable totalHoras.
 * Obtener la hora actual mediante totalHoras % 60.
 
-El programa debe de calcular todo lo anterior y mostrar el mensaje con los cáluculos hechos de la hora actual:
+El programa debe de calcular todo lo anterior y mostrar el mensaje con los cálculos hechos de la hora actual:
 `La hora del sistema es 17:35:07 GMT`
 
+7. **Lab Práctico** Crear un conversor de unidades informáticas. El programa debe pedir la entrada por teclado de la cantidad y luego de la unidad origen: 
+```
+0 = byte
+1 = Kilobyte
+2 = Megabyte
+3 = Gigabyte
+4 = Terabyte
+```
+Y luego debe realizar la conversión para el resto de unidades. Es decir, si se pasan Kb debe pasar a byte, MB, GB y TB etc.
+
+8. Escribe un programa que muestre la siguiente tabla calculando el punto medio de dos puntos. El punto medio se calcula sumando las dos coordenadas por separado y dividirla entre 2.
+```
+  a      b       Punto medio
+(0, 0) (2, 1)  (1.0, 0.5)
+(1, 4) (4, 2)  (2.5, 3.0)
+(2, 7) (6, 3)  (4.0, 5.0)
+(3, 9) (10, 5) (6.5, 7.0)
+```
+(4, 11) (12, 7) (8.0, 9.0)
+
+9. (Ejercicio Financiero): Supón gue tienes 100€ de beneficion mensual en una cuenta bancaria con un interés anual de 3.75%. El interés mensual sería: 0.0375/12 = 0.003125. 
+* Después del primer mes la ganancia sería: 100 + (0.003125 *100) = 100.3125
+* Después del segundo mes sería de: (100.3125 + 100) * ( 1 + .003125) = 200.9384765625
+
+Realiza un programa que calcule y muestre por pantalla el beneficio de los 6 primeros meses. De entrada pide el beneficio mensual, ej 100€.
