@@ -65,7 +65,7 @@ Puedes utilizar este método para saber cuál es el minuto, hora y segundo actua
 * Obtener el númeto total de minutos: totalSegundos / 60 en una variable totalMinutos.
 * Obtener el minuto actual mediante: totalMinutos % 60.
 * Obtener el número total de horas mediante: totalMinutos / 60 en una variable totalHoras.
-* Obtener la hora actual mediante totalHoras % 60.
+* Obtener la hora actual mediante totalHoras % 24.
 
 El programa debe de calcular todo lo anterior y mostrar el mensaje con los cálculos hechos de la hora actual:
 `La hora del sistema es 17:35:07 GMT`
@@ -94,3 +94,29 @@ Y luego debe realizar la conversión para el resto de unidades. Es decir, si se 
 * Después del segundo mes sería de: (100.3125 + 100) * ( 1 + .003125) = 200.9384765625
 
 Realiza un programa que calcule y muestre por pantalla el beneficio de los 6 primeros meses. De entrada pide el beneficio mensual, ej 100€.
+
+10. Realiza un programa que calcule la nota que hace falta sacar en el segundo
+examen de la asignatura Programación para obtener la media deseada. Hay
+que tener en cuenta que la nota del primer examen cuenta el 40% y la del
+segundo examen un 60%.
+
+Ejemplo 1:
+```
+Introduce la nota del primer examen: 7
+¿Qué nota quieres sacar en el trimestre? 8.5
+Para tener un 8.5 en el trimestre necesitas sacar un 9.5 en el segundo examen.
+```
+Ejemplo 2:
+```
+Introduce la nota del primer examen: 8
+¿Qué nota quieres sacar en el trimestre? 7
+Para tener un 7 en el trimestre necesitas sacar un 6.33 en el segundo examen
+```
+11. (Separación de los dígitos en un enteroo) Escriba una aplicación que reciba del usuario un número compuesto por cinco dígitos, que separe ese número en sus dígitos individuales y los imprima, cada uno separado de los demás 
+por tres espacios. Por ejemplo, si el usuario escribe el número 42339, el programa debe imprimir:
+
+```
+4   2   3   3   9
+```
+Suponga que el usuario escribe el número correcto de dígitos.  Necesitará utilizar las operaciones de división y residuo para “seleccionar” cada dígito]. Así, si haces 42339 % 10 = 9, si divides 42339 / 10 = 4233 y luego 4233 % 10 = 3 y así sucesivamente.
+
