@@ -99,7 +99,6 @@ Realiza un programa que calcule y muestre por pantalla el beneficio de los 6 pri
 examen de la asignatura Programación para obtener la media deseada. Hay
 que tener en cuenta que la nota del primer examen cuenta el 40% y la del
 segundo examen un 60%.
-
 Ejemplo 1:
 ```
 Introduce la nota del primer examen: 7
@@ -112,11 +111,10 @@ Introduce la nota del primer examen: 8
 ¿Qué nota quieres sacar en el trimestre? 7
 Para tener un 7 en el trimestre necesitas sacar un 6.33 en el segundo examen
 ```
-11. (Separación de los dígitos en un enteroo) Escriba una aplicación que reciba del usuario un número compuesto por cinco dígitos, que separe ese número en sus dígitos individuales y los imprima, cada uno separado de los demás 
-por tres espacios. Por ejemplo, si el usuario escribe el número 42339, el programa debe imprimir:
+11. Crea un un programa que pida dos puntos por teclado (x1, x2) e (y1, y2) y muestre la distancia de ambos puntos. La fórmula utilizada es sqrt((x2 - x1)^2 + (y2-y1)^2)) . El símbolo sqrt es raíz cuadrada y ^ es el exponente. Se pueden utilizar la funciones Math.pow y Math.sqrt.
 
+12. (Separación de los dígitos en un entero) Escribe una aplicación que reciba del usuario un número compuesto por cinco dígitos, que separe ese número en sus dígitos individuales y los imprima, cada uno separado de los demás 
+por tres espacios. Por ejemplo, si el usuario escribe el número 42339, el programa debe imprimir
 ```
 4   2   3   3   9
 ```
-Suponga que el usuario escribe el número correcto de dígitos.  Necesitará utilizar las operaciones de división y residuo para “seleccionar” cada dígito]. Así, si haces 42339 % 10 = 9, si divides 42339 / 10 = 4233 y luego 4233 % 10 = 3 y así sucesivamente.
-
