@@ -99,6 +99,7 @@ Realiza un programa que calcule y muestre por pantalla el beneficio de los 6 pri
 examen de la asignatura Programación para obtener la media deseada. Hay
 que tener en cuenta que la nota del primer examen cuenta el 40% y la del
 segundo examen un 60%.
+
 Ejemplo 1:
 ```
 Introduce la nota del primer examen: 7
