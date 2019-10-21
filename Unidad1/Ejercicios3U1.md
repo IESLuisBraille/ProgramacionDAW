@@ -19,7 +19,7 @@ Pedir el día, mes y año (todos datos enteros) de una fecha e indicar si la fec
 
 Escribe un programa que realice el cambio de ºC a ºF y viceversa. El programa debe preguntar por si el usuario quiere Celsius o Fahrenheit. El programa debe verificar que si el usuario introduce por teclado "Celsius" debe luego preguntar por el número y calcular y mostrar en pantallas la conversión a ºF. De forma análoga si el usuario introduce "Fahr" para comprobar que el usuario quiere de ºF a ºC.
 
-La fórmula es C = (5/9) * (F * 32). Despeja la F para poder calcular los ºF.
+La fórmula es C = (5/9) * (F - 32). Despeja la F para poder calcular los ºF.
 
 Ejemplo de salida:
 
