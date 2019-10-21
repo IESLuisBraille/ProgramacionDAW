@@ -121,8 +121,9 @@ por tres espacios. Por ejemplo, si el usuario escribe el número 42339, el progr
 ```
 
 11. (**Lab Práctico**) Implementar un programa de análisis financiero que siga los siguientes requisitos funcionales
-
+```math
 Let $\text{S}_1(N) = \sum_{p=1}^N \text{E}(p)$
+```
 
 ### Cuestiones
 
