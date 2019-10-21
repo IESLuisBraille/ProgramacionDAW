@@ -119,8 +119,30 @@ por tres espacios. Por ejemplo, si el usuario escribe el número 42339, el progr
 ```
 4   2   3   3   9
 ```
+11. (**Lab Práctico**): Vamos a crear un programa de gestión de préstamos en el que se solicitan los siguientes requisitos:
+* El usuario debe introducir la tasa de interés, la cantidad total del préstamo y los años en los que los pagos de la deuda se realizan.
+* Debe procesarse y mostrar el pago mensual y la cantidad total de los pagos.
 
-### Cuestiones
+El pago mensual y el total del pago se calculan con las siguientes fórmulas:
+```
+pagoMensual = ( totalPrestamo * tasaDeInteresMensual ) / (1 - 1 / ((1  + tasaDeInteresMensual ) ^ ( numAnyos x 12 )))
+
+totalPago = pagoMensual * numAnyos * 12
+```
+* El interés debe ser un porcentaje 4.5% por ejemplo, si quieres obtener el interés mensual debes dividir por 100 y luego dividir por 12. 
+* Puedes utilizar las funciones Math que necesites.
+
+Un ejemplo sería de programa sería:
+
+```
+Introduce la tasa de interés, por ejemplo, 7.25: 5.75
+Introduce el número de años como entero, por ejemplo 5: 15
+Introduce la cantidad del pŕestamo, por ejemplo: 120000.95: 250000 
+La mensualidad a pagar es: $2076.02
+El pago total es: $373684.53
+```
+
+### Cuestiones/
 
 1. Qué asignaciones son correctas en Java:
 
