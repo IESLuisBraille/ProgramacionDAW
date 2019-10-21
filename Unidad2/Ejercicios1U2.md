@@ -124,7 +124,7 @@ Nota:
 - si hacemos 42339 /10 = 4233
 - Y así podemos saber cuál es la descomposición y además ir reduciendo el número hasta llegar al último
 
-11. (**Lab Práctico**): Vamos a crear un programa de gestión de préstamos en el que se solicitan los siguientes requisitos:
+13. (**Lab Práctico**): Vamos a crear un programa de gestión de préstamos en el que se solicitan los siguientes requisitos:
 * El usuario debe introducir la tasa de interés, la cantidad total del préstamo y los años en los que los pagos de la deuda se realizan.
 * Debe procesarse y mostrar el pago mensual y la cantidad total de los pagos.
 
