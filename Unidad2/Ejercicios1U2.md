@@ -119,3 +119,53 @@ por tres espacios. Por ejemplo, si el usuario escribe el número 42339, el progr
 ```
 4   2   3   3   9
 ```
+
+11. (**Lab Práctico**) Implementar un programa de análisis financiero que siga los siguientes requisitos funcionales
+
+Let $\text{S}_1(N) = \sum_{p=1}^N \text{E}(p)$
+
+### Cuestiones
+
+1. Qué asignaciones son correctas en Java:
+
+```
+int value = (float) 4.5;
+float value = 4 (double);
+double value = 2.12;
+char value = 5c;
+ 
+double money = 12;
+double money = 12.0;
+double money = 12.0d;
+
+char aChar = 5.5;
+char aChar = “W”;
+char aChar = '*';
+```
+2. Qué valor numérico tienen las siguientes expresiones en Java:
+```
+a. 4 + 6 * 2
+b. 10 / 5 + 8
+c. 12 / 4 + 16 / 2
+d. 17 / 2
+e. 22 / 5
+f. 39 / 10
+g. 19 % (2 + 3)
+h. 3 + 4 * 20 / 3
+i. 36 % (6 + 2)
+j. 8 % 2 * 0
+```
+3. Cuál es valor booleano de las siguientes expresiones en Java:
+
+```
+a. 15 , 13
+b. 8 ,5 (2 + 6)
+c. 15 55 15
+d. 3 .5 3
+e. 4 * 2 55 2 * 4
+f. 5 , 8 – 3
+g. 7 !5 7
+h. 8 !5 (2 + 5)
+i. 10 – 20 55 –10
+j. 3 + 2 * 6 55 30
+```
