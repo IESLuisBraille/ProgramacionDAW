@@ -208,11 +208,9 @@ j. 8 % 2 * 0
   h. System.out.printf("%05d %06.1f\n", 32, 32.32);
 ```
 
-6. Teniendo esta sentencia pasa d a tipo byte, short, int, long, float, char y revisa el resultado.
-```java
-double d = 75.0;
-```
-7. Según la sentencia `char c = '\u2277` pasar a byte, short, int, long, float y double y revisa el resultado.
+6. Teniendo esta sentencia `double d = 75.0;` pasa d a tipo byte, short, int, long, float, char y revisa el resultado.
+
+7. Según la sentencia `char c = '\u2277'` pasar a byte, short, int, long, float y double y revisa el resultado.
 
 . Probar el siguiente código para ver el funcionamiento de printf:
 
