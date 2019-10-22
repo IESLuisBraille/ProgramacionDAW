@@ -178,19 +178,14 @@ h. 3 + 4 * 20 / 3
 i. 36 % (6 + 2)
 j. 8 % 2 * 0
 ```
-3. Cuál es valor booleano de las siguientes expresiones en Java:
+3. Cuál es valor booleano si x = 1:
 
 ```
-a. 15 , 13
-b. 8 ,5 (2 + 6)
-c. 15 55 15
-d. 3 .5 3
-e. 4 * 2 55 2 * 4
-f. 5 , 8 – 3
-g. 7 !5 7
-h. 8 !5 (2 + 5)
-i. 10 – 20 55 –10
-j. 3 + 2 * 6 55 30
+(x > 0)
+(x < 0)
+(x != 0)
+(x >= 0)
+(x != 1) 
 ```
 4. Qué está mal en las siguientes sentencias:
   a. System.out.printf("%5d %d", 1, 2, 3);
