@@ -192,3 +192,56 @@ h. 8 !5 (2 + 5)
 i. 10 – 20 55 –10
 j. 3 + 2 * 6 55 30
 ```
+4. Qué está mal en las siguientes sentencias:
+  a. System.out.printf("%5d %d", 1, 2, 3);
+  b. System.out.printf("%5d %f", 1);
+  c. System.out.printf("%5d %f", 1, 2);
+  d. System.out.printf("%.2f\n%0.3f\n", 1.23456, 2.34);
+  e. System.out.printf("%08s\n", "Java");
+
+5. Muestra la salida de las siguientes sentencias:
+  a. System.out.printf("amount is %f %e\n", 32.32, 32.32);
+  b. System.out.printf("amount is %5.2f%% %5.4e\n", 32.327, 32.32);
+  c. System.out.printf("%6b\n", (1 > 2));
+  d. System.out.printf("%6s\n", "Java");
+  e. System.out.printf("%−6b%s\n", (1 > 2), "Java");
+  f. System.out.printf("%6b%−8s\n", (1 > 2), "Java");
+  g. System.out.printf("%,5d %,6.1f\n", 312342, 315562.932);
+  h. System.out.printf("%05d %06.1f\n", 32, 32.32);
+
+6. Teniendo esta sentencia pasa d a tipo byte, short, int, long, float, char y revisa el resultado.
+```java
+double d = 75.0;
+```
+7. Según la sentencia `char c = '\u2277` pasar a byte, short, int, long, float y double y revisa el resultado.
+
+. Probar el siguiente código para ver el funcionamiento de printf:
+
+
+```java
+public class FormatDemo {
+	public static void main(String[] args) {
+        // Display the header of the table
+ 		System.out.printf("%−10s%−10s%−10s%−10s%−10s\n", "Degrees",
+  			"Radians", "Sine", "Cosine", "Tangent");
+ 
+  		// Display values for 30 degrees
+  		int degrees = 30;
+  		double radians = Math.toRadians(degrees);
+ 		System.out.printf("%−10d%−10.4f%−10.4f%−10.4f%−10.4f\n", degrees,
+ 			radians, Math.sin(radians), Math.cos(radians),
+ 			Math.tan(radians));
+
+ 		// Display values for 60 degrees
+ 		degrees = 60;
+ 		radians = Math.toRadians(degrees);
+ 		System.out.printf("%−10d%−10.4f%−10.4f%−10.4f%−10.4f\n", degrees,
+ 			radians, Math.sin(radians), Math.cos(radians),
+ 			Math.tan(radians));
+ 	}
+}
+```
+
+
+
+
