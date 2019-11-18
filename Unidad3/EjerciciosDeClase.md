@@ -7,10 +7,10 @@ public class Persona
  int edad;
  float altura;
  String consulta_Nombre(){
- return nombre;
+ 	return nombre;
  }
  void cambia_Nombre(String nom){
- nombre=nom;
+ 	nombre=nom;
  }
 }
 ```
@@ -43,35 +43,35 @@ el contenido de los atributos por pantalla. Utiliza el operador this.
 
 5. Construye una clase Complejo con dos atributos:
 
-• real: parte real del número complejo
-• imag: parte imaginaria del número complejo
+	• real: parte real del número complejo
+	• imag: parte imaginaria del número complejo
 
 Puedes consultar la estructura de una clase en el apartado correspondiente de la unidad, o 
 bien partir de la definición de la clase Persona del apartado anterior. A continuación crea 
 los siguientes métodos dentro de la clase: 
 
-• public Complejo(): Constructor que inicializa los atributos a cero. 
-
-• public Complejo(double real, double imag): Constructor que 
-inicializa los atributos a los valores indicados por los parámetros. 
-
-• public double consulta_Real(): Devuelve la parte real del objeto. 
-
-• public double consulta_Imag(): Devuelve la parte imaginaria del objeto.
-
-• public void cambia_Real(double real): Asigna a la parte real del 
-objeto el valor indicado en el parámetro real. 
-
-• public void cambia_Imag(double imag): Asigna a la parte imaginaria 
-del objeto el valor indicado en el parámetro imag. 
-
-• public String toString(): Convierte a String el número complejo, 
-mediante la concatenación de sus atributos y devuelve como resultado la cadena de 
-texto 3 + 4i, si 3 es la parte real y 4 la parte imaginaria. 
-
-• public void sumar(Complejo b): Suma la parte real con la parte real del 
-número complejo b y la parte imaginaria con la parte imaginaria del número 
-complejo b. (
+	• public Complejo(): Constructor que inicializa los atributos a cero. 
+	
+	• public Complejo(double real, double imag): Constructor que 
+	inicializa los atributos a los valores indicados por los parámetros. 
+	
+	• public double consulta_Real(): Devuelve la parte real del objeto. 
+	
+	• public double consulta_Imag(): Devuelve la parte imaginaria del objeto.
+	
+	• public void cambia_Real(double real): Asigna a la parte real del 
+	objeto el valor indicado en el parámetro real. 
+	
+	• public void cambia_Imag(double imag): Asigna a la parte imaginaria 
+	del objeto el valor indicado en el parámetro imag. 
+	
+	• public String toString(): Convierte a String el número complejo, 
+	mediante la concatenación de sus atributos y devuelve como resultado la cadena de 
+	texto 3 + 4i, si 3 es la parte real y 4 la parte imaginaria. 
+	
+	• public void sumar(Complejo b): Suma la parte real con la parte real del 
+	número complejo b y la parte imaginaria con la parte imaginaria del número 
+	complejo b. 
 
 Crea un proyecto que contenga la clase Complejo en un paquete llamado numeros y 
 pruebe todos sus métodos con otra clase llamada PruebaComplejos
