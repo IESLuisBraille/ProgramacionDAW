@@ -43,8 +43,11 @@ el contenido de los atributos por pantalla. Utiliza el operador this.
 
 5. Construye una clase Complejo con dos atributos:
 
+```
 	• real: parte real del número complejo
+	
 	• imag: parte imaginaria del número complejo
+```
 
 Puedes consultar la estructura de una clase en el apartado correspondiente de la unidad, o 
 bien partir de la definición de la clase Persona del apartado anterior. A continuación crea 
