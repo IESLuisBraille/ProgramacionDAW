@@ -83,11 +83,11 @@ Visita el siguiente enlace para conocer algo más de los números complejos:
 
 ![Números Complejos](https://www.superprof.es/apuntes/escolar/matematicas/aritmetica/complejos/numeros-complejos-resumen.html)
 
-5. Actividad UT03-2: Atributos de clase. Población.
+5. Atributos de clase. Población.
 
 Crear una clase Individuo con atributos DNI (de tipo cadena), nombre y año de nacimiento. Incorpora un constructor general que reciba como parámetros los 3 atributos anteriores. Incorporar métodos getter() y setter() a través de la utilidad que tendrán los IDE´s como Eclipse o Netbeans para automatizar dicho proceso (investiga para ver cómo hacerlo). Incorporar un atributo estático o de clase que controle la población (cantidad de individuos)  y que llamaremos poblacion. Posteriormente, en el método principal, instanciaremos una serie de elementos Individuo, comprobando que el valor del atributo de clase poblacion se actualiza, efectivamente, con el número de individuos instanciados.
 
-6. Actividad UT03-3: Clase Racional.
+6. Clase Racional.
 
 Comprueba que la  clase siguiente funciona correctamente. Sin embargo, es mejorable en su diseño: no dispone de un constructor explícito, el método main está codificado en el mismo fichero fuente, no se especifican modificadores de acceso a los miembros de la clase, etc.. Modifica la aplicación subsanando los inconvenientes antes indicados.
 
@@ -145,7 +145,7 @@ class CRacional
 
 }
 ```
-4. Actividad UT03-4: Clase Circulo.
+7. Clase Circulo.
 
 Crea una clase denominada Circulo  con los siguientes datos:
 
@@ -171,7 +171,7 @@ Construye otro fichero denominado TestCirculo donde se arranque la aplicación. 
 
  
 
-5. Tarea UT05: Clase Rectangulo.
+8. Clase Rectangulo.
 
 Diseña una clase denominada Rectangulo teniendo en cuenta la información siguiente:
 
