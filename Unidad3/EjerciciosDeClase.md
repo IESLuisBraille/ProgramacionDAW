@@ -174,6 +174,7 @@ Construye otro fichero denominado TestCirculo donde se arranque la aplicación. 
 5. Tarea UT05: Clase Rectangulo.
 
 Diseña una clase denominada Rectangulo teniendo en cuenta la información siguiente:
-![](images/rect.png
+
+![](images/rect.png)
 
 Incorpora en el proyecto una clase TestRectangulo con un método main() que permita instanciar un objeto de la clase Rectangulo para calcular su perímetro y área. 
