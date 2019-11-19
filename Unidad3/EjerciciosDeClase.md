@@ -78,3 +78,7 @@ los siguientes métodos dentro de la clase:
 
 Crea un proyecto que contenga la clase Complejo en un paquete llamado numeros y 
 pruebe todos sus métodos con otra clase llamada PruebaComplejos
+
+Visita el siguiente enlace para conocer algo más de los números complejos:
+
+[](https://www.superprof.es/apuntes/escolar/matematicas/aritmetica/complejos/numeros-complejos-resumen.html)
