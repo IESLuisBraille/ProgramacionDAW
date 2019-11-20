@@ -81,7 +81,7 @@ pruebe todos sus métodos con otra clase llamada PruebaComplejos
 
 Visita el siguiente enlace para conocer algo más de los números complejos:
 
-[Números Complejos]:https://www.superprof.es/apuntes/escolar/matematicas/aritmetica/complejos/numeros-complejos-resumen.html
+[Números Complejos](https://www.superprof.es/apuntes/escolar/matematicas/aritmetica/complejos/numeros-complejos-resumen.html)
 
 5. Atributos de clase. Población.
 
