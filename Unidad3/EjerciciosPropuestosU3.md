@@ -8,15 +8,17 @@ longitudCircunferencia -> retorna la longitud de la circunferencia (2*Pi*r)
 
 Todos los datos son double.
 
-2. Crea una clase FuncionesMatematicas que tenga la función **esPrimo** que comprueba si un número entero positivo es primo o no.Un número es primo cuando únicamente es divisible entre él mismo y la unidad. También crea otra función **cuentaDigitos** que devuelve el número de dígitos que contiene un número entero
+2. Crea una clase FuncionesMatematicas que tenga la función **esPrimo** que comprueba si un número entero positivo es primo o no.Un número es primo cuando únicamente es divisible entre él mismo y la unidad. 
 
-3.Crea la clase Pizza con los atributos y métodos necesarios. Sobre cada pizza se necesita saber :
+3. También crea otra función **cuentaDigitos** que devuelve el número de dígitos que contiene un número entero
+
+4. Crea la clase Pizza con los atributos y métodos necesarios. Sobre cada pizza se necesita saber :
 * el tamaño - mediana o familiar 
 * el tipo - margarita, cuatro quesos o funghi 
 * y su estado - pedida o servida. 
 La clase debe almacenar información sobre el número total de pizzas que se han pedido y que se han servido. Siempre que se crea una pizza nueva, su estado es "pedida".
 
-4. Implementa la clase CuentaCorriente. Cada cuenta corriente tiene un número de cuenta de 10 dígitos. Para simplificar, el número de cuenta se genera de forma aleatoria cuando se crea una cuenta nueva. La cuenta se puede crear con un saldo inicial; en caso de no especificar saldo, se pondrá a cero inicialmente.
+5. Implementa la clase CuentaCorriente. Cada cuenta corriente tiene un número de cuenta de 10 dígitos. Para simplificar, el número de cuenta se genera de forma aleatoria cuando se crea una cuenta nueva. La cuenta se puede crear con un saldo inicial; en caso de no especificar saldo, se pondrá a cero inicialmente.
 
 En una cuenta se pueden hacer ingresos y gastos. También es posible hacer una transferencia entre una cuenta y otra. Se permite el saldo negativo.
 
