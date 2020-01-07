@@ -13,7 +13,7 @@ Y así el formato utilizado será el anglosajón para los decimales.
 
 - También puedes hacerlo configurando el idioma inglés en la MV o en tu sistema (en este caso ya no se necesita la línea de código de arriba en tus programas):
 
-En Ubuntu:
+En Ubuntu: 
 
 ```
 $ sudo locale-gen en_US.UTF-8
