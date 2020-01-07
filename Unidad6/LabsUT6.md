@@ -1,7 +1,6 @@
 ## Lab 1 UT06: Clase ArrayDouble.
 
 
-
 Diseña una [clase](https://fpdistancia.educa.madrid.org/mod/glossary/showentry.php?eid=62407&displayformat=dictionary) denominada **ArrayDouble** de números de tipo double con las siguientes métodos:
 
 \-   Constructor por defecto. Solicitamos por teclado el tamaño del array, creamos espacio para almacenar la información e inicializamos el número de elementos.
