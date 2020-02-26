@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"proy1","c":"MiClase","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"proy1","c":"MiClase","l":"MiClase()","url":"%3Cinit%3E()"},{"p":"proy1","c":"Enum1","l":"valueOf(String)","url":"valueOf(java.lang.String)"},{"p":"proy1","c":"Enum1","l":"values()"}]
